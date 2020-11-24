@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.596139,
+            37.6935,
+            440
+          ],
+          [
+            -6.552495,
+            37.673079,
+            300
+          ],
+          [
+            -6.550819,
+            37.721725,
+            466
+          ],
+          [
+            -6.596927,
+            37.692531,
+            490.3
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Minas de Río Tinto",
+        "description": "\r\n        En 1875 se construyó la línea de ferrocarril entre Riotinto y Huelva, que puso de manifiesto el gran poder económico de Riotinto,\r\n        al ser construido en el tiempo récord de dos años, y que permitiría el transporte de minerales hasta el Muelle, en el puerto de Huelva, de mineral de la compañía Riotinto,\r\n        a lo largo de 84 km. Muchas estaciones, puente y túneles, que hoy se ven desde un tren turístico con vagones de madera y máquinas de vapor, que bordea el Rio Tinto durante 11 km y desde los antiguos\r\n        talleres llega hasta la estación de Los Frailes, donde se hace la parada para caminar hasta la misma orilla del río *En el recorrido se pasa por la estación de Zarandas, playa de vías.\r\n        Y se disfruta de unas vistas impresionantes del río y de la gran actividad minera.\r\n      "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.088354,
+            39.234443,
+            471.051
+          ],
+          [
+            -1.058735,
+            39.2358,
+            390
+          ],
+          [
+            -1.073505,
+            39.240907,
+            540
+          ],
+          [
+            -1.069682,
+            39.239164,
+            539
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Volcán de Agrás",
+        "description": "\r\n        Gracias a esta excursión los viajeros podrán conocer la geología de la zona y el único volcán “reciente” de toda la Comunidad Valenciana. Una ruta que profundiza en el mundo de la vulcanología y que explica, de una forma amena y divertida, las diferentes partes del volcán, el material piroclástico, las rocas de la zona… En Cofrentes existen tres afloramientos volcánicos consecutivos el Cerro de Agras, el Pico del Fraile y la Chimenea donde está asentado el Castillo de Cofrentes.\r\n      "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.70532,
+            42.339569,
+            854.6
+          ],
+          [
+            -3.705828,
+            42.33966,
+            855.7
+          ],
+          [
+            -3.706552,
+            42.339657,
+            857.9
+          ],
+          [
+            -3.711171,
+            42.338909,
+            849.4
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ruta de la luz",
+        "description": "\r\n        El Chuchutren es una de las mejores formas de ver Burgos. Una primera toma de contacto para que vayas planificando tu visita y no te quedes superado por la gran cantidad de monumentos que tienes visitar.\r\n      "
+      }
+    }
+  ]
+}

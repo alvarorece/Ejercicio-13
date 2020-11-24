@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Minas de Río Tinto</name>
+      <description>
+        En 1875 se construyó la línea de ferrocarril entre Riotinto y Huelva, que puso de manifiesto el gran poder económico de Riotinto,
+        al ser construido en el tiempo récord de dos años, y que permitiría el transporte de minerales hasta el Muelle, en el puerto de Huelva, de mineral de la compañía Riotinto,
+        a lo largo de 84 km. Muchas estaciones, puente y túneles, que hoy se ven desde un tren turístico con vagones de madera y máquinas de vapor, que bordea el Rio Tinto durante 11 km y desde los antiguos
+        talleres llega hasta la estación de Los Frailes, donde se hace la parada para caminar hasta la misma orilla del río *En el recorrido se pasa por la estación de Zarandas, playa de vías.
+        Y se disfruta de unas vistas impresionantes del río y de la gran actividad minera.
+      </description>
+      <LineString>
+        <tesselate>1</tesselate>
+        <extrude>1</extrude>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates> -6.596139,37.693500,440 -6.552495,37.673079,300 -6.550819,37.721725,466 -6.596927,37.692531,490.3</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volcán de Agrás</name>
+      <description>
+        Gracias a esta excursión los viajeros podrán conocer la geología de la zona y el único volcán “reciente” de toda la Comunidad Valenciana. Una ruta que profundiza en el mundo de la vulcanología y que explica, de una forma amena y divertida, las diferentes partes del volcán, el material piroclástico, las rocas de la zona… En Cofrentes existen tres afloramientos volcánicos consecutivos el Cerro de Agras, el Pico del Fraile y la Chimenea donde está asentado el Castillo de Cofrentes.
+      </description>
+      <LineString>
+        <tesselate>1</tesselate>
+        <extrude>1</extrude>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates> -1.088354,39.234443,471.051 -1.058735,39.235800,390.0 -1.073505,39.240907,540.0 -1.069682,39.239164,539.0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de la luz</name>
+      <description>
+        El Chuchutren es una de las mejores formas de ver Burgos. Una primera toma de contacto para que vayas planificando tu visita y no te quedes superado por la gran cantidad de monumentos que tienes visitar.
+      </description>
+      <LineString>
+        <tesselate>1</tesselate>
+        <extrude>1</extrude>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates> -3.705320,42.339569,854.6 -3.705828,42.339660,855.7 -3.706552,42.339657,857.9 -3.711171,42.338909,849.4</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
