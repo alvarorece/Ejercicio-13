@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeoJSON Mapa</title>
+    <link rel="stylesheet" href="MapaGeoJSON.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="GoogleMap.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <input id="upload" type="file" name="Archivos" onchange="controller.addGeoJSON()">
+    <div id="capture"></div>
+    <script src="MapaGeoJSON.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=initializer.do"></script>
+</body>
+
+</html>

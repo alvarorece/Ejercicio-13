@@ -17,19 +17,17 @@ class GoogleMap {
             map: this.map
         }));
     }
-    addKMLFile(src) {
-        this.polys.forEach(poly=>poly.setMap(null));
+    addGeoJSONFile(src) {
+        this.polys.forEach(poly => poly.setMap(null));
         this.polys = [];
         this.getCoordsFromFile(src).then(result => {
             result.forEach(position => this.addPoly(position));
         });
     }
     async getCoordsFromFile(src) {
-        const parser = new DOMParser();
         const str = await src.text();
-        const doc = parser.parseFromString(str, "text/xml");
-        return Array.from(doc.getElementsByTagName('Placemark'))
-            .map(placemark => placemark.getElementsByTagName('coordinates')[0].childNodes[0].nodeValue.trim().split(' ')
-                .map(point => point.split(',')).map(point => ({ lat: +point[1], lng: +point[0] })));
+        const geo = JSON.parse(str);
+        return geo.features.map(feature => feature.geometry.coordinates
+            .map(coordinates => ({ lat: coordinates[1], lng: coordinates[0] })));
     }
 }
