@@ -10,10 +10,12 @@
 </head>
 
 <body>
+    <header>
+        <h1>Mapa KML</h1>
+    </header>
     <div id="map"></div>
-    <label for="upload">Upload</label>
+    <label for="upload">Sube</label>
     <input id="upload" type="file" name="Archivos" onchange="controller.addGeoJSON()">
-    <div id="capture"></div>
     <script src="MapaGeoJSON.js"></script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=initializer.do"></script>

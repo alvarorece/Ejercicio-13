@@ -10,13 +10,15 @@
 </head>
 
 <body>
+    <header>
+        <h1>Mapa KML</h1>
+    </header>
     <div id="map"></div>
-    <label for="upload">Upload</label>
+    <label for="upload">sube</label>
     <input id="upload" type="file" name="Archivos" onchange="controller.addKml()">
-    <div id="capture"></div>
     <script src="MapaKML.js"></script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=initializer.do"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=initializer.do"></script>
 </body>
 
 </html>
